@@ -21,10 +21,11 @@ public void montreContenu() {
 }
 
 public void remplir(Face objet) {
-	if (verifPlace()) {
+	if (Boolean.TRUE.equals(verifPlace())) {
 		contenu.add(objet);
 		place--;
-		System.out.printf("vous avez ajouter une %s au panier, il reste %d places restante(s)", objet.toText(),place);
+		System.out.printf("vous avez ajouter une %s au panier, il reste %d place(s)", objet.toText(),place);
+		System.out.printf("%d",3);
 	} else {
 		System.out.printf("il est impossible dajouter une %s car le panier est rempli", objet.toText());
 	}
