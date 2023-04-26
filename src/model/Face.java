@@ -3,7 +3,7 @@ package model;
 public enum Face {
 COULEUR1("Pommes"),
 COULEUR2("Poires"),
-COULEUR3("Abricots"),
+COULEUR3("Banane"),
 COULEUR4("Peches"),
 COULEUR5("corbeau"),
 COULEUR6("bonus");
